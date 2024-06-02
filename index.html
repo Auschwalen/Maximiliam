@@ -3,32 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>M A X I M I L I A M</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Maximiliam's Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-    <hr>
-    <h3><a href="public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="assets/images/movie-ranking.png">
-    <h3><a href="public/birthday-invite.html">Birthday Invite Project</a></h3>
-    <img src="assets/images/birthday-invite.png">
-    <hr>
-    <a href="public/about.html">About Me</a> <a href="public/contact.html">Contact Me</a>
+    <div class="page" id="page1">
+        <div class="side-bar bg2">
+
+            <div class="profile">
+                <div class="prof-pict">
+                    <img src="assets/img/Profile Pict.png" alt="">
+                </div>
+                <h1>Maximiliam</h1>
+                <h3>NETWORK ENGINEER</h3>
+            </div>
+
+            <div class="navbar">
+                <button type="button" onclick="home()" id="home">Home</button>
+                <button type="button" onclick="about()" id="about">About</button>
+                <button type="button" onclick="resume()" id="resume">Resume</button>
+                <button type="button" onclick="services()" id="services">Services</button>
+                <button type="button" onclick="contact()" id="contact">Contact</button>
+            </div>
+
+            <div class="footer">
+                <div class="links">
+                    <a href=""><img src="" alt="">Insta</a>
+                </div>
+                <div class="copyright">
+                    <p>© 2024 Maximiliam</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-content bg2" id="content-home">
+            <div class="home-name">
+                <h1>I'm Maximiliam<span>.</span></h1>
+            </div>
+
+            <div class="home-desc">
+                <p>A technician who has honed their skills in monitoring, maintaining, and troubleshooting an organization's network infrastructure. The watchful eyes behind the scenes, ensuring smooth operation and swift issue resolution.</p>
+            </div>
+
+            <div class="home-btn">
+                <button type="button" onclick="contact()" id="home-contact">Contact Me</button>
+                <button type="button" onclick="about()" id="hoem-about">About</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="info" id="info">
+        <div class="info-con">
+            <div class="clsbtn">
+                <button type="button" onclick="clsbtn()" id="clsbtn">X</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
-<!-- TODO 1: Create the HTML Boilerplate -->
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
