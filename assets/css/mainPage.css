@@ -1,0 +1,103 @@
+.mainPage {
+    display: flex;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+
+    border-radius: 20px;
+}
+
+.mainPage-home {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+
+.mainPage-homeTop {
+    display: flex;
+    box-sizing: border-box;
+
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50%;
+    gap: 50px;
+}
+
+.mainPage-homeBot {
+    display: flex;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 50%;
+}
+
+.profileImg {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    aspect-ratio: 1 / 1;
+
+    background: url(../img/profile.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profileDesc {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    
+    justify-content: center;
+    text-align: justify;
+}
+
+.blockWork {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    padding: 50px;
+
+    aspect-ratio: 1/1;
+
+    background: lightblue;
+
+    justify-content: space-between;
+}
+
+.workLogo {
+    display: flex;
+    box-sizing: border-box;
+
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+
+    width: fit-content;
+}
+
+.workLogo img {
+    padding: 10px;
+    width: 50px;
+}
+
+.workExp h1 {
+    font-size: 48pt;
+}
+
+.workExp h3 {
+    font-size: 16pt;
+}

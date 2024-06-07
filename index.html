@@ -3,67 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>M A X I M I L I A M</title>
-
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="page" id="page1">
-        <div class="side-bar bg2">
+    <div class="container black">
 
-            <div class="profile">
-                <div class="prof-pict">
-                    <img src="assets/img/Profile Pict.png" alt="">
-                </div>
-                <h1>Maximiliam</h1>
-                <h3>NETWORK ENGINEER</h3>
+        <div class="sideNav">
+            
+            <div class="sideNav-logo">
+                <h1>M</h1>
+                <h6>MAXIMILIAM</h6>
             </div>
 
-            <div class="navbar">
-                <button type="button" onclick="home()" id="home">Home</button>
-                <button type="button" onclick="about()" id="about">About</button>
-                <button type="button" onclick="resume()" id="resume">Resume</button>
-                <button type="button" onclick="services()" id="services">Services</button>
-                <button type="button" onclick="contact()" id="contact">Contact</button>
+            <div class="sideNav-link">
+                <div class="pagelinks">
+                    <button type="button"><img src="assets/img/home.png" alt="">HOME</button>
+                </div>
+                <div class="pagelinks">
+                    <button type="button"><img src="assets/img/about.png" alt="">ABOUT</button>
+                </div>
+                <div class="pagelinks">
+                    <button type="button"><img src="assets/img/resume.png" alt="">RESUME</button>
+                </div>
+                <div class="pagelinks">
+                    <button type="button"><img src="assets/img/contact.png" alt="">CONTACT</button>
+                </div>
             </div>
 
-            <div class="footer">
-                <div class="links">
-                    <a href=""><img src="" alt="">Insta</a>
-                </div>
-                <div class="copyright">
-                    <p>© 2024 Maximiliam</p>
-                </div>
+            <div class="sideNav-theme">
+                <button type="button"></button>
             </div>
 
         </div>
 
-        <div class="main-content bg2" id="content-home">
-            <div class="home-name">
-                <h1>I'm Maximiliam<span>.</span></h1>
+        <div class="mainPage dark">
+
+            <div class="mainPage-home">
+
+                <div class="mainPage-homeTop">
+
+                    <div class="profileImg">
+                    </div>
+
+                    <div class="profileDesc">
+                        <h1>Hi, I'm Maximiliam.</h1>
+                        <p>A Singapore graduate majoring in Network and Computer Technology. A Network Engineer with 3 years of experience as NOC Engineer. A PC enthusiast freelancing as a consultant for PC builds. A certified Frontend Web Developer with 2 Bootcamp Certification. An avid learner of technology and a hard thinker solving a lot of tech problems.</p>
+                    </div>
+
+                </div>
+
+                <div class="mainPage-homeBot">
+                    <div class="blockWork">
+                        <div class="workLogo">
+                            <img src="assets/img/work.png" alt="">
+                        </div>
+                        <div class="workExp">
+                            <h1>3 Years</h1>
+                            <h3>Work Experience</h3>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="home-desc">
-                <p>A technician who has honed their skills in monitoring, maintaining, and troubleshooting an organization's network infrastructure. The watchful eyes behind the scenes, ensuring smooth operation and swift issue resolution.</p>
-            </div>
+            <div class="mainPage-about"></div>
 
-            <div class="home-btn">
-                <button type="button" onclick="contact()" id="home-contact">Contact Me</button>
-                <button type="button" onclick="about()" id="hoem-about">About</button>
-            </div>
+            <div class="mainPage-resume"></div>
+
+            <div class="mainPage-services"></div>
+
         </div>
+
     </div>
-
-    <div class="info" id="info">
-        <div class="info-con">
-            <div class="clsbtn">
-                <button type="button" onclick="clsbtn()" id="clsbtn">X</button>
-            </div>
-        </div>
-    </div>
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>

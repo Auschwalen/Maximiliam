@@ -1,66 +1,31 @@
-@import url(color.css);
-@import url(sidebar.css);
-@import url(main.css);
-@import url(keyframes.css);
+@import url(background.css);
+@import url(sideNav.css);
+@import url(mainPage.css);
 
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #ffffff;
+    
     text-decoration: none;
-    margin: 0;
+    color: #ffffff;
+
     padding: 0;
+    margin: 0;
 }
 
-html,body {
+html, body {
     width: 100%;
     height: 100%;
+
     box-sizing: border-box;
-    background: #eee;
 }
 
-button {
-    cursor: pointer;
-}
-
-.page {
+.container {
     display: flex;
+    box-sizing: border-box;
+
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
-    justify-content: center;
-    padding: 100px;
+
+    padding: 25px;
     gap: 25px;
-}
-
-.info {
-    display: none;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    bottom: 0;
-    background: rgba(0,0,0,.5);
-    backdrop-filter: blur(5px);
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.info-con {
-    display: flex;
-    width: 30%;
-    height: 80%;
-    background: #999;
-}
-
-.clsbtn {
-    display: flex;
-    margin-left: auto;
-    position: relative;
-    height: fit-content;
-    width: fit-content;
-}
-
-#clsbtn {
-    height: fit-content;
-    width: fit-content;
 }
