@@ -36,6 +36,8 @@
 
     width: 100%;
     height: 50%;
+
+    gap: 50px;
 }
 
 .profileImg {
@@ -64,7 +66,7 @@
     text-align: justify;
 }
 
-.blockWork {
+.block {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -74,14 +76,28 @@
 
     aspect-ratio: 1/1;
 
-    background: lightblue;
+    justify-content: space-between;
+}
+
+.blockAlt {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    padding: 50px;
+
+    width: 100%;
 
     justify-content: space-between;
 }
 
-.workLogo {
+.logo {
     display: flex;
     box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
 
     border: 2px solid #ffffff;
     border-radius: 100%;
@@ -89,15 +105,23 @@
     width: fit-content;
 }
 
-.workLogo img {
+.logo img {
     padding: 10px;
     width: 50px;
 }
 
-.workExp h1 {
+.blockDetail h1 {
     font-size: 48pt;
 }
 
-.workExp h3 {
+.blockDetail h2 {
+    font-size: 32pt;
+}
+
+.blockDetail h3 {
+    font-size: 20pt;
+}
+
+.blockDetail h4 {
     font-size: 16pt;
 }
